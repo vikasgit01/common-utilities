@@ -1,10 +1,9 @@
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.SceneManagement;
-using GameUtilities;
 using GameManagers;
 
-namespace GameUtills
+namespace GameUtilities
 {
     public class Environment : MonoBehaviour
     {

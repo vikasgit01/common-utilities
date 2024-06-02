@@ -5,7 +5,7 @@ using UnityEditor.UI;
 using UnityEditor.UIElements;
 using UnityEngine;
 
-namespace GameUtills
+namespace GameUIUtilities
 {
     [CustomEditor(typeof(ButtonAnimation))]
     public class ButtonAnimationEditor : ButtonEditor

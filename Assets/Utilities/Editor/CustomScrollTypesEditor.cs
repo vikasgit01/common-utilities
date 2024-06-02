@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEditor.UI;
 using UnityEngine;
 
-namespace GameUtills
+namespace GameUIUtilities
 {
 
     [CustomEditor(typeof(CustomScrollTypes))]
