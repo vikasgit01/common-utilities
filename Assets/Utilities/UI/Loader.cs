@@ -1,7 +1,14 @@
+///
+/// Copyright (c) 2024 Vikas Reddy Thota
+///
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+
+namespace GameUIUtilities
+{
 
 public class Loader : MonoBehaviour
 {
@@ -14,4 +21,5 @@ public class Loader : MonoBehaviour
             _rectTransform.gameObject.SetActive(show);
     }
 
+}
 }

@@ -1,8 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
+///
+/// Copyright (c) 2024 Vikas Reddy Thota
+///
+
 using UnityEngine;
 using UnityEngine.UI;
-namespace GameUtills
+
+namespace GameUIUtilities
 {
     public class Scaler : MonoBehaviour
     {

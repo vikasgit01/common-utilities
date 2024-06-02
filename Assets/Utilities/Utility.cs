@@ -1,3 +1,7 @@
+///
+/// Copyright (c) 2024 Vikas Reddy Thota
+///
+
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -9,7 +13,6 @@ namespace GameUtilities
 {
     public class Utility : MonoBehaviour
     {
-
         public static TextMesh CreateTextMeshAtWorldPosition(string text, Vector3 position, int size, Transform parent = null, TextAlignment alignment = TextAlignment.Left, TextAnchor anchor = TextAnchor.UpperLeft, Color? color = null, int defaultSize = 5000)
         {
             Color Colour = Color.white;

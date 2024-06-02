@@ -1,3 +1,7 @@
+///
+/// Copyright (c) 2024 Vikas Reddy Thota
+///
+
 using GameManagers;
 using System;
 using System.Collections;
@@ -5,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace GameUtills
+namespace GameSystems
 {
     public class Timer
     {

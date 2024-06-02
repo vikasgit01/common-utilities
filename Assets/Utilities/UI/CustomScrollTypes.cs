@@ -1,3 +1,7 @@
+///
+/// Copyright (c) 2024 Vikas Reddy Thota
+///
+
 using GameManagers;
 using Newtonsoft.Json.Linq;
 using System;
@@ -7,7 +11,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
-namespace GameUtills
+namespace GameUIUtilities
 {
     public class CustomScrollTypes : ScrollRect
     {

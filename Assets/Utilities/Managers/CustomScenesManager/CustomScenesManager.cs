@@ -36,7 +36,7 @@ namespace GameManagers
             //setup data for scenes
             SetUpScenes();
 
-            //Keep this instance thorought game
+            //Keep this instance thorough out the game
             DontDestroyOnLoad(this);
         }
 

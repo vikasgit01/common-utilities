@@ -1,7 +1,16 @@
+///
+/// Copyright (c) 2024 Vikas Reddy Thota
+///
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+
+
+namespace GameUIUtilities
+{
+
 
 public class DragableObject : MonoBehaviour, IDragHandler
 {
@@ -18,4 +27,5 @@ public class DragableObject : MonoBehaviour, IDragHandler
     {
       if(rectTransform)  rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
+}
 }

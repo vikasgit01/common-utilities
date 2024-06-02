@@ -1,3 +1,7 @@
+///
+/// Copyright (c) 2024 Vikas Reddy Thota
+///
+
 using GameManagers;
 using System.Collections;
 using System.Collections.Generic;
@@ -5,7 +9,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace GameUtills
+namespace GameUIUtilities
 {
     public class ButtonAnimation : Button
     {

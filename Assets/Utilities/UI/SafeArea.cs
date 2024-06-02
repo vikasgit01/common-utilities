@@ -1,9 +1,14 @@
+///
+/// Copyright (c) 2024 Vikas Reddy Thota
+///
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GameUtills{
+namespace GameUIUtilities
+{
 
 public class SafeArea : MonoBehaviour
 {

@@ -10,7 +10,7 @@ namespace GameManagers
 
     /// <summary>
     /// Class can be use to add logs
-    /// it make easy to turn off the logs for different evironments
+    /// it make easy to turn off the logs for different environment
     /// </summary>
     public class LogsManager
     {
@@ -20,8 +20,8 @@ namespace GameManagers
         [System.Diagnostics.Conditional(UtilitiesConstants.EnableLogs)]
         public static void Print(object message, Color color)
         {
-            string colorcode = Utility.GetHexCodeFromColor(color);
-            Debug.Log($"<color={colorcode}> {message} </color>");
+            string colorCode = Utility.GetHexCodeFromColor(color);
+            Debug.Log($"<color={colorCode}> {message} </color>");
         }
 
 
